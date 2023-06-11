@@ -7,9 +7,10 @@
 <?import javafx.scene.shape.Circle?>
 
 
-<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="PrincipalController">
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.PrincipalController">
+
    <children>
-      <TextField layoutX="145.0" layoutY="188.0" promptText="Nombre" />
+      <TextField layoutX="145.0" layoutY="188.0" promptText="Nombre" />      
       <TextField layoutX="308.0" layoutY="188.0" promptText="Edad" />
       <Button layoutX="210.0" layoutY="335.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="179.0" text="Iniciar juego" />
       <Circle fx:id="circle" fill="DODGERBLUE" layoutX="300.0" layoutY="99.0" radius="69.0" stroke="BLACK" strokeType="INSIDE" />

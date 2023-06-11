@@ -1,3 +1,5 @@
+package Controller;
+
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXMLController.java to edit this template
@@ -28,7 +30,7 @@ public class PantallaDerrotaController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
-        Image image = new Image(getClass().getResourceAsStream("home.png"));
+        Image image = new Image(getClass().getResourceAsStream("../images/home.png"));
 
         // Crear un ImageView y establecer la imagen en él
         ImageView imageView = new ImageView(image);

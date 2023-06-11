@@ -21,10 +21,11 @@ public class PantallaInicio extends Application {
         Scene Scena = new Scene(PantallaNivel1);
         primaryStage.setScene(Scena);
         primaryStage.show();
-        Parent PantallaDerrota = FXMLLoader.load(getClass().getResource("Pantallavictoria.fxml"));
+        Parent PantallaDerrota = FXMLLoader.load(getClass().getResource("PantallaVictoria.fxml"));
         Scene Derrota = new Scene(PantallaDerrota);
         primaryStage.setScene(Derrota);
         primaryStage.show();
+    
     }
 
     
