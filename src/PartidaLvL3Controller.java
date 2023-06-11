@@ -12,12 +12,14 @@ import javafx.fxml.Initializable;
  *
  * @author Andres Rueda
  */
-public class PartidaLvL1Controller implements Initializable {
-     
+public class PartidaLvL3Controller implements Initializable {
+
+    /**
+     * Initializes the controller class.
+     */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-        
-        
+        // TODO
     }    
     
 }
