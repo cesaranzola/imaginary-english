@@ -17,7 +17,7 @@ public class PrincipalController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
         
-        Image img = new Image("../images/logo.jpeg");
+        Image img = new Image("/images/logo.jpeg");
         circle.setFill(new ImagePattern(img));
     }    
 }

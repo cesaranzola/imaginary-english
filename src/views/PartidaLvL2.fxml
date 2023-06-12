@@ -36,17 +36,17 @@
       </Label>
       <ImageView fitHeight="115.0" fitWidth="116.0" layoutX="99.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../images/signo.jpg" />
+            <Image url="@/images/signo.jpg" />
          </image>
       </ImageView>
       <ImageView fitHeight="12.0" fitWidth="17.0" layoutX="152.0" layoutY="94.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../images/corazon.png" />
+            <Image url="@/images/corazon.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="115.0" fitWidth="116.0" layoutX="237.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../images/signo.jpg" />
+            <Image url="@/images/signo.jpg" />
          </image>
       </ImageView>
       <Label layoutX="237.0" layoutY="327.0" prefHeight="30.0" prefWidth="116.0" text="Selecciona un:" />
@@ -54,7 +54,7 @@
       <Button layoutX="269.0" layoutY="301.0" mnemonicParsing="false" text="Button" />
       <ImageView fitHeight="115.0" fitWidth="116.0" layoutX="382.0" layoutY="183.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../images/signo.jpg" />
+            <Image url="@/images/signo.jpg" />
          </image>
       </ImageView>
       <Button layoutX="414.0" layoutY="301.0" mnemonicParsing="false" text="Button" />

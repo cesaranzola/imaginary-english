@@ -24,7 +24,7 @@ public class PantallaVictoriaController implements Initializable {
      */
     @Override
     public void initialize(URL url, ResourceBundle rb) {
-    Image image = new Image(getClass().getResourceAsStream("../images/home.png"));
+    Image image = new Image(getClass().getResourceAsStream("/images/home.png"));
 
         // Crear un ImageView y establecer la imagen en él
         ImageView imageView = new ImageView(image);
